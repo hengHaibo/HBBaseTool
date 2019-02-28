@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HBBaseTool"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
   spec.summary      = "工具类"
 
   spec.description  = "基本的工具类"
