@@ -21,16 +21,15 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  # spec.ios.deployment_target = "9.0"
 
   spec.source       = { :git => "https://github.com/hengHaibo/HBBaseTool.git", :tag => "#{spec.version}" }
-#spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
 
-  spec.subspec 'HBCategory' do |z|
-    z.source_files = 'HBBaseTool/Classes/Category/**/*'
+  spec.subspec 'Category' do |z|
+#z.source_files = "HBBaseTool/Classes/Category/**/*"
   end
 
   # spec.public_header_files = "Classes/**/*.h"
