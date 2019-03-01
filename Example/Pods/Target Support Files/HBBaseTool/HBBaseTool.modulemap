@@ -1,0 +1,6 @@
+framework module HBBaseTool {
+  umbrella header "HBBaseTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

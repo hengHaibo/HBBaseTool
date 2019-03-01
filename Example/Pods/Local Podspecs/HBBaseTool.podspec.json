@@ -1,0 +1,27 @@
+{
+  "name": "HBBaseTool",
+  "version": "0.3.0",
+  "summary": "分类",
+  "description": "基本的分类....",
+  "homepage": "https://github.com/hengHaibo/HBBaseTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18730261828@163.com": "18730261828@163.com"
+  },
+  "source": {
+    "git": "https://github.com/18730261828@163.com/HBBaseTool.git",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "HBCategory",
+      "source_files": "HBBaseTool/Classes/HBCategory/**/*"
+    }
+  ]
+}

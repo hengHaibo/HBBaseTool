@@ -1,0 +1,18 @@
+PODS:
+  - HBBaseTool (0.3.0):
+    - HBBaseTool/HBCategory (= 0.3.0)
+  - HBBaseTool/HBCategory (0.3.0)
+
+DEPENDENCIES:
+  - HBBaseTool (from `../`)
+
+EXTERNAL SOURCES:
+  HBBaseTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBBaseTool: 5bbb58f2e2eaac6781133a8d5ed04ae9b6d81562
+
+PODFILE CHECKSUM: aad4c7d911426837b481e42ef59220db5cd61ee1
+
+COCOAPODS: 1.6.0
